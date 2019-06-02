@@ -1,0 +1,18 @@
+{
+    "update" : false,    
+    "isLJSDK" : false,    
+    "isChgeAcc" : false,    
+    "isPush" : false,    
+    "isDebug" : true,    
+    "isGuide" : false,    
+    "isChannel" : true,    
+    "channelName" : "gd",    
+    "sdkPlatform" : "99u",    
+    "dataEyeChannelID" : "99u",    
+    "dataEyeAppID" : "11453278",    
+    "platformIP" : "120.92.141.137",    
+    "platformPort" : 8935,    
+    "localIP" : "120.92.141.137",    
+    "localPort" : 7935,    
+    "gameName" : "ccy"
+}

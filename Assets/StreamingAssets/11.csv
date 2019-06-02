@@ -1,0 +1,6 @@
+﻿编号,服务器id,端口,渠道名,版本号,客户端表格路径
+本地,120.92.141.137,8935,ccy,180000,E:\99Play\tools\table\client_table
+官渡,120.92.141.137,7935,gd,180000,E:\99Play\tools\table\client_table
+探娱,120.92.141.137,7935,tan1,180000,E:\99Play\tools\table\client_table
+变态版,127.0.0.1,7935,ccy,180000,E:\svn\ccy_client\release\sl_trunk\table_ios\client_table
+新数据和谐版,127.0.0.1,7935,ccy,180000,E:\svn\ccy_client\release\sl_trunk\table_ios\client_table

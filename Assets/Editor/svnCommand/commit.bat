@@ -1,0 +1,1 @@
+ "TortoiseProc.exe"  /command:commit /path:"%1"  /closeonend:0

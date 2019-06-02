@@ -1,0 +1,21 @@
+{
+    "group": "IosGenuineSdk",
+    "libs": [
+    ],
+    "frameworks": [
+    "StoreKit.framework",
+    ],
+    "headerpaths": [],                    
+    "files":   [
+    "iOS/IosGenuineSdk/iosPay.h",
+	"iOS/IosGenuineSdk/iosPay.m",
+    "iOS/IosGenuineSdk/LsSdkConector.h",
+    "iOS/IosGenuineSdk/LsSdkConector.m",
+    "iOS/IosGenuineSdk/UniWebView.mm",
+    "iOS/IosGenuineSdk/StoreKit.framework"
+    ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": ["-ObjC"]
+}

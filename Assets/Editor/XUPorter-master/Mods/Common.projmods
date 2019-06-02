@@ -1,0 +1,15 @@
+{
+    "group": "Common",
+    "libs": [
+    ],
+    "frameworks": [
+    ],
+    "headerpaths": [],                    
+    "files":   [
+    	"iOS/Common/UniWebView.mm",
+    ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": ["-ObjC"]
+}

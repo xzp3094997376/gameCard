@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 14ed682f507fe7f4a87b720d8607981d
+TrueTypeFontImporter:
+  serializedVersion: 3
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: font/msyh
+  assetBundleVariant: 

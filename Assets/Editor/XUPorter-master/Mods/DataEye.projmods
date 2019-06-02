@@ -1,0 +1,19 @@
+{
+    "group": "DataEye",
+    "libs": ["libz.dylib" ,"libsqlite3.dylib"],
+    "frameworks": [
+    	"CFNetwork.framework", 
+    	"SystemConfiguration.framework" , 
+    	"CoreTelephony.framework" ,  
+    	"Security.framework",
+    	"AdSupport.framework:optional"
+    ],
+    "headerpaths": ["iOS/DataEye/**"], 
+    "files":   [
+    	"iOS/DataEye/libDataEye_V2.5.2.a",
+    ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": []
+}

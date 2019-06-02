@@ -1,0 +1,16 @@
+{
+    "packageUrl" : "http://1251320503.cdn.myqcloud.com/1251320503/1001375/files/",    
+    "remoteManifestUrl" : "http://update.sl.99you.game:8888/project.manifest",    
+    "remoteVersionUrl" : "http://update.sl.99you.game:8888/version.manifest",    
+    "version" : "180000",    
+    "groupVersions" : 
+    {
+        
+    },    
+    "engineVersion" : "",    
+    "assets" : null,    
+    "searchPaths" : 
+    [
+        
+    ]
+}

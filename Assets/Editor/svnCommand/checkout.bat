@@ -1,0 +1,1 @@
+"TortoiseProc.exe" /command:checkout /path:"%1" /url:"svn://10.0.5.55/trunk/commonSrc"
