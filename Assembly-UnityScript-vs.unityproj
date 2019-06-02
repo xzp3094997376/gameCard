@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{CC5A699E-A288-206A-CD29-1D8FDCB9CBC1}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_4;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;build_apk;RELEASE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\AmbientObscurance.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Bloom.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\BloomAndLensFlares.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Blur.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\CameraMotionBlur.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\ColorCorrectionCurves.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\ColorCorrectionLut.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\ContrastEnhance.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Crease.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\DepthOfField34.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\DepthOfFieldScatter.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\EdgeDetectEffectNormals.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\FastBloom.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Fisheye.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\GlobalFog.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\NoiseAndGrain.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\PostEffectsBase.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\PostEffectsHelper.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Quads.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\ScreenOverlay.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\SunShafts.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\TiltShiftHdr.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Tonemapping.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Triangles.js" />
+     <Compile Include="Assets\commonSrc\Image Effects (Pro Only)\Vignetting.js" />
+     <None Include="Assets\Resources\Shaders\Split Images (AlphaClip).shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.7.8.txt" />
+     <None Include="Assets\BundleManager\Resources\Urls.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Resources\Shaders\IgnoreFogAlpha.shader" />
+     <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\BundleManager\BMConfiger.txt" />
+     <None Include="Assets\Scripts\fight\Resources\shader\combine_pic.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\BundleManager\BundleData.txt" />
+     <None Include="Assets\Scripts\fight\Resources\shader\Invert_Grayscale.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\commonSrc\shader\Energy Ball.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\commonSrc\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\commonSrc\shader\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\BlackScreen.shader" />
+     <None Include="Assets\commonSrc\Scripts\Double_Alpha.shader" />
+     <None Include="Assets\commonSrc\shader\Trail Additive Turbulence.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\__res\encirclementAtlas.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Z_Test\guideStep.txt" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\commonSrc\shader\SM_TransparentRim.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\commonSrc\shader\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Resources\Shaders\Split Images 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Resources\Shaders\Unlit - Transparent Grays.shader" />
+     <None Include="Assets\Resources\Shaders\IgnoreFog.shader" />
+     <None Include="Assets\commonSrc\Scripts\FXMaker_Mask Alpha Blended.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Resources\Shaders\Split Images 3.shader" />
+     <None Include="Assets\__res\new_ui\jue_se_list\jue_se_list.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Resources\load-icon\sishenss.atlas.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Resources\Shaders\HideBackground.shader" />
+     <None Include="Assets\commonSrc\shader\HeatDistort.shader" />
+     <None Include="Assets\Resources\Shaders\logo.shader" />
+     <None Include="Assets\commonSrc\shader\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\commonSrc\Scripts\FXMaker_Mask Cutout.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Resources\Shaders\LogoForAlpha.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\commonSrc\shader\SM_TransparentAntiRim.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\commonSrc\Scripts\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Resources\Shaders\mask_roundness_texture 1.shader" />
+     <None Include="Assets\commonSrc\DissolveShader\Shader\Dissolve_WorldCoords.shader" />
+     <None Include="Assets\Resources\Shaders\vertexUnlit.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\commonSrc\shader\Alpha Blended Turbulence.shader" />
+     <None Include="Assets\Resources\Shaders\HideBackground 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Resources\Shaders\maskbypicture 1.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\WhiteScreen.shader" />
+     <None Include="Assets\Resources\Shaders\vertexColor.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\study.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\commonSrc\shader\SM_2sided_transparent.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\commonSrc\DissolveShader\Shader\Dissolve_TexturCoords.shader" />
+     <None Include="Assets\Resources\Shaders\mask_roundness_texture.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\Toony-transprent.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\commonSrc\shader\Illumin-VertexLit.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\SpeedLine.shader" />
+     <None Include="Assets\Resources\Shaders\Unlit - Transparent Grays 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\spine-unity\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Resources\Shaders\mask_roundness.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\commonSrc\shader\effect_distortadd.shader" />
+     <None Include="Assets\Resources\Shaders\mask_roundness 1.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Resources\Shaders\Split Images.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\commonSrc\shader\faguang.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\3dPlane.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\Resources\Shaders\maskbypicture.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Scripts\SDK\XGPushScripts\Androidmanifest.xml" />
+     <None Include="Assets\Scripts\fight\Resources\shader\forPlane.shader" />
+     <None Include="Assets\commonSrc\Scripts\Double Face.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\commonSrc\Scripts\FXMaker_Mask Alpha Blended Tint.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\commonSrc\DissolveShader\Readme.txt" />
+     <None Include="Assets\commonSrc\shader\Additive Turbulence.shader" />
+     <None Include="Assets\__res\goOnPatrol.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\__res\blood.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Resources\Shaders\maskbypicture gray 1.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\commonSrc\shader\Distortion.shader" />
+     <None Include="Assets\commonSrc\Scripts\Leaf_Alpha.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\__res\bloodAltlas.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\Move2DSprite.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\commonSrc\Scripts\FXMaker_Mask Additive.shader" />
+     <None Include="Assets\Resources\Shaders\Split Images (SoftClip).shader" />
+     <None Include="Assets\BundleManager\BuildStates.txt" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Resources\Shaders\double side.shader" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\SelfToony.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Resources\Shaders\Split Images 2.shader" />
+     <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Scripts\fight\Resources\shader\half show.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Scripts\3rd\PathologicalGames\readme.txt" />
+     <None Include="Assets\Resources\Shaders\maskbypicture gray.shader" />
+     <None Include="Assets\commonSrc\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\commonSrc\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="TcpClientImplementation">
+ <HintPath>E:/code/src_stable_week/branches/dabanben/client/Assets/Plugins/TcpClientImplementation.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

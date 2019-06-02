@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1798101949
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f949ba9536c4042b836d89377d8274db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c39c80ab36f1b53091b140405e2ced05
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 0288bbe73638f444b8d9982c6ed0ef0e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/BattleEditor/actions_config/ActionsDefault.asset
+Dependencies: []

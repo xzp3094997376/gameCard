@@ -1,0 +1,37 @@
+{
+    "list" : 
+    [
+        
+        {
+            "path" : "Assets/images",            
+            "type" : 1,            
+            "root" : null
+        },        
+        
+        {
+            "path" : "Assets/UI",            
+            "type" : 0,            
+            "root" : "Assets/UI"
+        },        
+        
+        {
+            "path" : "Assets/UI",            
+            "type" : 4,            
+            "root" : "Assets/UI"
+        },        
+        
+        {
+            "path" : "Assets/BattleEditor/battlescene",            
+            "type" : 0,            
+            "root" : "Assets/BattleEditor"
+        },        
+        
+        {
+            "path" : "Assets/BattleEditor/actions_config",            
+            "type" : 9,            
+            "root" : "Assets/BattleEditor"
+        }
+    ],    
+    "output" : "AssetBundle",    
+    "oldOutput" : "OldAssetBundle"
+}
